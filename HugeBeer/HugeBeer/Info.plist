@@ -27,6 +27,16 @@
 				<string>fb753360644794626</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.yamblet.HugeBeer</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bubbleer</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
@@ -34,6 +44,11 @@
 	<string>753360644794626</string>
 	<key>FacebookDisplayName</key>
 	<string>Bubbleer</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>bubbleer</string>
+		<string>fbauth2</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -77,9 +92,5 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>fbauth2</string>
-    </array>
 </dict>
 </plist>
