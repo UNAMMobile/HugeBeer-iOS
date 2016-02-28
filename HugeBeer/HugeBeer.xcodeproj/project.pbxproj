@@ -108,12 +108,10 @@
 		A0802F4A1C826D220095CED8 /* HugeBeer */ = {
 			isa = PBXGroup;
 			children = (
-				A0E872081C8284990049ACD3 /* Classes */,
 				A0802F4B1C826D220095CED8 /* AppDelegate.swift */,
-				A0802F4D1C826D220095CED8 /* ViewController.swift */,
-				A0802F4F1C826D220095CED8 /* Main.storyboard */,
-				A0802F521C826D220095CED8 /* Assets.xcassets */,
-				A0802F541C826D220095CED8 /* LaunchScreen.storyboard */,
+				A0E872081C8284990049ACD3 /* Classes */,
+				A0E8720E1C8285B80049ACD3 /* ViewControllers */,
+				A0E872101C8285F80049ACD3 /* UI */,
 				A0802F571C826D220095CED8 /* Info.plist */,
 			);
 			path = HugeBeer;
@@ -152,6 +150,32 @@
 				A0E8720B1C8284B30049ACD3 /* BubblesScene.swift */,
 			);
 			name = Bubbles;
+			sourceTree = "<group>";
+		};
+		A0E8720E1C8285B80049ACD3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8720F1C8285EE0049ACD3 /* LoginViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A0E8720F1C8285EE0049ACD3 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0802F4D1C826D220095CED8 /* ViewController.swift */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		A0E872101C8285F80049ACD3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A0802F4F1C826D220095CED8 /* Main.storyboard */,
+				A0802F541C826D220095CED8 /* LaunchScreen.storyboard */,
+				A0802F521C826D220095CED8 /* Assets.xcassets */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 		D01AF22267B4A150DFFA7F6A /* Pods */ = {

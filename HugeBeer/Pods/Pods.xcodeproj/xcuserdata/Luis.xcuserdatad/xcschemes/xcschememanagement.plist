@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DZNEmptyDataSet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKLoginKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,6 +72,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>245D2475F49F9673E41C2C4B02B64ED1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>347FA205D9D56E8BD467D50F499F5CA3</key>
 		<dict>
 			<key>primary</key>
@@ -67,12 +87,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<key>5D69761C2CD2A1E5C013537B29CAB4CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85BADBF7B3C3F5F0D3C47246073C4694</key>
+		<key>63A18C6A528BD7E47DDAF39B2AEAF1D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +107,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B861A2FBA23697D82C00898F8CF9932F</key>
+		<key>DD98583E31DA22905D7F6BA0066B6E58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5ACF367AE3BD7A7F2AF2D430901DF7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -85,7 +85,10 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-HugeBeer/Alamofire.framework"
+  install_framework "Pods-HugeBeer/Bolts.framework"
   install_framework "Pods-HugeBeer/DZNEmptyDataSet.framework"
+  install_framework "Pods-HugeBeer/FBSDKCoreKit.framework"
+  install_framework "Pods-HugeBeer/FBSDKLoginKit.framework"
   install_framework "Pods-HugeBeer/Firebase.framework"
   install_framework "Pods-HugeBeer/KVNProgress.framework"
   install_framework "Pods-HugeBeer/Material.framework"
@@ -94,7 +97,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HugeBeer/Alamofire.framework"
+  install_framework "Pods-HugeBeer/Bolts.framework"
   install_framework "Pods-HugeBeer/DZNEmptyDataSet.framework"
+  install_framework "Pods-HugeBeer/FBSDKCoreKit.framework"
+  install_framework "Pods-HugeBeer/FBSDKLoginKit.framework"
   install_framework "Pods-HugeBeer/Firebase.framework"
   install_framework "Pods-HugeBeer/KVNProgress.framework"
   install_framework "Pods-HugeBeer/Material.framework"
