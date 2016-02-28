@@ -15,6 +15,8 @@
 		A0802F561C826D220095CED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0802F541C826D220095CED8 /* LaunchScreen.storyboard */; };
 		A0802F611C826D220095CED8 /* HugeBeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0802F601C826D220095CED8 /* HugeBeerTests.swift */; };
 		A0802F6C1C826D220095CED8 /* HugeBeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0802F6B1C826D220095CED8 /* HugeBeerUITests.swift */; };
+		A0E8720C1C8284B40049ACD3 /* BubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8720A1C8284B30049ACD3 /* BubbleNode.swift */; };
+		A0E8720D1C8284B40049ACD3 /* BubblesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8720B1C8284B30049ACD3 /* BubblesScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		A0802F671C826D220095CED8 /* HugeBeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HugeBeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0802F6B1C826D220095CED8 /* HugeBeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeBeerUITests.swift; sourceTree = "<group>"; };
 		A0802F6D1C826D220095CED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E8720A1C8284B30049ACD3 /* BubbleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleNode.swift; sourceTree = "<group>"; };
+		A0E8720B1C8284B30049ACD3 /* BubblesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesScene.swift; sourceTree = "<group>"; };
 		BCE225DCE2F398C454538B89 /* Pods-HugeBeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugeBeer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HugeBeer/Pods-HugeBeer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,7 @@
 		A0802F4A1C826D220095CED8 /* HugeBeer */ = {
 			isa = PBXGroup;
 			children = (
+				A0E872081C8284990049ACD3 /* Classes */,
 				A0802F4B1C826D220095CED8 /* AppDelegate.swift */,
 				A0802F4D1C826D220095CED8 /* ViewController.swift */,
 				A0802F4F1C826D220095CED8 /* Main.storyboard */,
@@ -130,6 +135,23 @@
 				A0802F6D1C826D220095CED8 /* Info.plist */,
 			);
 			path = HugeBeerUITests;
+			sourceTree = "<group>";
+		};
+		A0E872081C8284990049ACD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0E872091C82849C0049ACD3 /* Bubbles */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A0E872091C82849C0049ACD3 /* Bubbles */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8720A1C8284B30049ACD3 /* BubbleNode.swift */,
+				A0E8720B1C8284B30049ACD3 /* BubblesScene.swift */,
+			);
+			name = Bubbles;
 			sourceTree = "<group>";
 		};
 		D01AF22267B4A150DFFA7F6A /* Pods */ = {
@@ -331,7 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E8720C1C8284B40049ACD3 /* BubbleNode.swift in Sources */,
 				A0802F4E1C826D220095CED8 /* ViewController.swift in Sources */,
+				A0E8720D1C8284B40049ACD3 /* BubblesScene.swift in Sources */,
 				A0802F4C1C826D220095CED8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
