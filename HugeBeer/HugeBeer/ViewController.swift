@@ -12,9 +12,20 @@ import Firebase
 
 class ViewController: UIViewController {
 
+    var currentUser:FAuthData!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let ref = Firebase(url: "https://hugebeer.firebaseio.com")
+        ref.observeAuthEventWithBlock({ authData in
+            if authData != nil {
+                // user authenticated
+                print(authData.providerData["displayName"])
+            } else {
+                // No user is signed in
+            }
+        })
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,13 +33,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func loginFB(sender: UIButton) {
+        self.FBLogin()
+    }
 
 }
 
 extension ViewController{
 
     func FBLogin(){
-        let ref = Firebase(url: "https://<YOUR-FIREBASE-APP>.firebaseio.com")
+        let ref = Firebase(url: "https://hugebeer.firebaseio.com")
         let facebookLogin = FBSDKLoginManager()
         
         facebookLogin.logInWithReadPermissions(["email"], fromViewController: self) { (facebookResult, facebookError) -> Void in
@@ -46,7 +60,7 @@ extension ViewController{
                         } else {
                             print("Logged in! \(authData)")
                             
-                            
+                            self.currentUser = authData
                         }
                 })
             }
