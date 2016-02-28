@@ -19,6 +19,30 @@ class BubbleNode: SIFloatingNode {
     var burbbleStrokeColor = SKColor()
     var burbbleRadius = CGFloat()
     
+    static func multipleLineText(labelInPut: SKLabelNode) -> SKLabelNode {
+        let subStrings:[String] = labelInPut.text!.componentsSeparatedByString("\n")
+        var labelOutPut = SKLabelNode()
+        var subStringNumber:Int = 0
+        for subString in subStrings {
+            let labelTemp = SKLabelNode(fontNamed: labelInPut.fontName)
+            labelTemp.text = subString
+            labelTemp.fontColor = labelInPut.fontColor
+            labelTemp.fontSize = labelInPut.fontSize
+            labelTemp.position = labelInPut.position
+            labelTemp.horizontalAlignmentMode = labelInPut.horizontalAlignmentMode
+            labelTemp.verticalAlignmentMode = labelInPut.verticalAlignmentMode
+            let y:CGFloat = CGFloat(subStringNumber) * labelInPut.fontSize
+            if subStringNumber == 0 {
+                labelOutPut = labelTemp
+                subStringNumber++
+            } else {
+                labelTemp.position = CGPoint(x: 0, y: -y)
+                labelOutPut.addChild(labelTemp)
+                subStringNumber++
+            }
+        }
+        return labelOutPut
+    }
     
     class func instantiate(name:String, radius:CGFloat, strokeColor:SKColor, backgroundColor:SKColor) -> BubbleNode! {
         let node = BubbleNode(circleOfRadius: radius)
@@ -38,17 +62,18 @@ class BubbleNode: SIFloatingNode {
         
         node.labelNode.text = node.burbbleName
         node.labelNode.position = CGPointZero
-        node.labelNode.fontColor = SKColor.whiteColor()
+        node.labelNode.fontColor = SKColor.blackColor()
         node.labelNode.fontSize = 10
         node.labelNode.userInteractionEnabled = false
         node.labelNode.verticalAlignmentMode = .Center
         node.labelNode.horizontalAlignmentMode = .Center
+        node.labelNode = self.multipleLineText(node.labelNode)
         node.addChild(node.labelNode)
     }
     
     override func selectingAnimation() -> SKAction? {
         removeActionForKey(BubbleNode.removingKey)
-        return SKAction.scaleTo(1.3, duration: 0.2)
+        return SKAction.scaleTo(1.4, duration: 0.2)
     }
     
     override func normalizeAnimation() -> SKAction? {
@@ -67,5 +92,19 @@ class BubbleNode: SIFloatingNode {
         let pulse = SKAction.sequence([pulseUp, pulseDown])
         let repeatPulse = SKAction.repeatActionForever(pulse)
         return repeatPulse
+    }
+}
+
+extension String {
+    
+    func replaceCharacters(characters: String, toSeparator: String) -> String {
+        let characterSet = NSCharacterSet(charactersInString: characters)
+        let components = self.componentsSeparatedByCharactersInSet(characterSet)
+        let result = components.joinWithSeparator("")
+        return result
+    }
+    
+    func wipeCharacters(characters: String) -> String {
+        return self.replaceCharacters(characters, toSeparator: "")
     }
 }

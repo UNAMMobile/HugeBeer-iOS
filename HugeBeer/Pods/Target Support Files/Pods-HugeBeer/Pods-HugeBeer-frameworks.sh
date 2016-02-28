@@ -93,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-HugeBeer/KVNProgress.framework"
   install_framework "Pods-HugeBeer/Material.framework"
   install_framework "Pods-HugeBeer/PaymentKit.framework"
+  install_framework "Pods-HugeBeer/RESideMenu.framework"
   install_framework "Pods-HugeBeer/SIFloatingCollection.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -105,5 +106,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-HugeBeer/KVNProgress.framework"
   install_framework "Pods-HugeBeer/Material.framework"
   install_framework "Pods-HugeBeer/PaymentKit.framework"
+  install_framework "Pods-HugeBeer/RESideMenu.framework"
   install_framework "Pods-HugeBeer/SIFloatingCollection.framework"
 fi

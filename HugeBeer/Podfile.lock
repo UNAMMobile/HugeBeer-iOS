@@ -16,6 +16,7 @@ PODS:
   - KVNProgress (2.2.3)
   - Material (1.34.7)
   - PaymentKit (1.0.0)
+  - RESideMenu (4.0.7)
   - SIFloatingCollection (2.1)
 
 DEPENDENCIES:
@@ -27,6 +28,7 @@ DEPENDENCIES:
   - KVNProgress
   - Material (~> 1.0)
   - PaymentKit (from `https://github.com/lmcd/PaymentKit.git`)
+  - RESideMenu (~> 4.0.7)
   - SIFloatingCollection (~> 2.1)
 
 EXTERNAL SOURCES:
@@ -49,6 +51,7 @@ SPEC CHECKSUMS:
   KVNProgress: 099c2d0feca4fee4ae3dffee26378c7e2a04edcf
   Material: 2b3ea1ebc702f97f03af88d4a63e3d71ccc70390
   PaymentKit: 2289510d64278c097d12fd97589305c2ee3d2ab2
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
   SIFloatingCollection: 2603c59df230f161a0a4400ac25fa8d013be7edb
 
 COCOAPODS: 0.39.0

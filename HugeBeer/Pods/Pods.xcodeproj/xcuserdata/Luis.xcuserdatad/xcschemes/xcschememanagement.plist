@@ -54,6 +54,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RESideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SIFloatingCollection.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,7 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>245D2475F49F9673E41C2C4B02B64ED1</key>
+		<key>23F634AA8CB59FFEF1CE1C64FBDF0F61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>259B2DE0E83E2AA4DA0E67AD9549C56D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,12 +112,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7AC9326D819482593FE118E915409D7</key>
+		<key>8008C9AC089BCBA06CEA2E9751093D9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DD98583E31DA22905D7F6BA0066B6E58</key>
+		<key>B7AC9326D819482593FE118E915409D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

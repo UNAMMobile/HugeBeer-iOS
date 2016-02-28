@@ -30,13 +30,13 @@ class BubblesScene: SIFloatingCollectionScene {
     }
     
     private func configure() {
-        backgroundColor = SKColor.whiteColor()
+        backgroundColor = SKColor.clearColor()
         scaleMode = .AspectFill
         allowMultipleSelection = false
         var bodyFrame = frame
         bodyFrame.size.width = CGFloat(magneticField.minimumRadius)
         bodyFrame.origin.x -= bodyFrame.size.width / 2
-        bodyFrame.size.height = frame.size.height - bottomOffset
+        bodyFrame.size.height = frame.size.height
         bodyFrame.origin.y = frame.size.height - bodyFrame.size.height - topOffset
         physicsBody = SKPhysicsBody(edgeLoopFromRect: bodyFrame)
         magneticField.position = CGPointMake(frame.size.width / 2, frame.size.height / 2 + bottomOffset / 2 - topOffset)

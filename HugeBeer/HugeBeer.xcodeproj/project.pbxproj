@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		51289C85333288D33A18FFF5 /* Pods_HugeBeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366BF9A61A5D22322F3072C0 /* Pods_HugeBeer.framework */; };
+		A067DCB31C832EDC0082797E /* InfoEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A067DCB21C832EDC0082797E /* InfoEventTableViewController.swift */; };
+		A067DCB61C833D3A0082797E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A067DCB51C833D3A0082797E /* VideoViewController.swift */; };
+		A067DCBA1C8340590082797E /* iphone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A067DCB91C8340340082797E /* iphone.mp4 */; };
+		A067DCBD1C8348560082797E /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A067DCBC1C8348560082797E /* InfoTableViewCell.swift */; };
 		A0802F4C1C826D220095CED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0802F4B1C826D220095CED8 /* AppDelegate.swift */; };
 		A0802F4E1C826D220095CED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0802F4D1C826D220095CED8 /* ViewController.swift */; };
 		A0802F511C826D220095CED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0802F4F1C826D220095CED8 /* Main.storyboard */; };
@@ -15,6 +19,25 @@
 		A0802F561C826D220095CED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0802F541C826D220095CED8 /* LaunchScreen.storyboard */; };
 		A0802F611C826D220095CED8 /* HugeBeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0802F601C826D220095CED8 /* HugeBeerTests.swift */; };
 		A0802F6C1C826D220095CED8 /* HugeBeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0802F6B1C826D220095CED8 /* HugeBeerUITests.swift */; };
+		A0DAA14A1C82DF1300CB4DD8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1491C82DF1300CB4DD8 /* MenuViewController.swift */; };
+		A0DAA14D1C82E00400CB4DD8 /* ListMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA14C1C82E00400CB4DD8 /* ListMenuViewController.swift */; };
+		A0DAA14F1C82E06700CB4DD8 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA14E1C82E06700CB4DD8 /* OptionTableViewCell.swift */; };
+		A0DAA1551C830E8B00CB4DD8 /* Inflight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1521C830E8B00CB4DD8 /* Inflight.swift */; };
+		A0DAA1561C830E8B00CB4DD8 /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1531C830E8B00CB4DD8 /* NSTimer+Closure.swift */; };
+		A0DAA1571C830E8B00CB4DD8 /* String+trimPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1541C830E8B00CB4DD8 /* String+trimPrefix.swift */; };
+		A0DAA1641C830E9500CB4DD8 /* BaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1581C830E9500CB4DD8 /* BaseItem.swift */; };
+		A0DAA1651C830E9500CB4DD8 /* KeyedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1591C830E9500CB4DD8 /* KeyedArray.swift */; };
+		A0DAA1661C830E9500CB4DD8 /* PartitionedStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA15A1C830E9500CB4DD8 /* PartitionedStream.swift */; };
+		A0DAA1671C830E9500CB4DD8 /* QueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA15B1C830E9500CB4DD8 /* QueryBuilder.swift */; };
+		A0DAA1681C830E9500CB4DD8 /* ResourceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA15C1C830E9500CB4DD8 /* ResourceBase.swift */; };
+		A0DAA1691C830E9500CB4DD8 /* ResourceContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA15D1C830E9500CB4DD8 /* ResourceContext.swift */; };
+		A0DAA16A1C830E9500CB4DD8 /* StreamBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA15E1C830E9500CB4DD8 /* StreamBase.swift */; };
+		A0DAA16B1C830E9500CB4DD8 /* StreamBaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA15F1C830E9500CB4DD8 /* StreamBaseDelegate.swift */; };
+		A0DAA16C1C830E9500CB4DD8 /* StreamBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1601C830E9500CB4DD8 /* StreamBaseProtocol.swift */; };
+		A0DAA16D1C830E9500CB4DD8 /* StreamTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1611C830E9500CB4DD8 /* StreamTableViewAdapter.swift */; };
+		A0DAA16E1C830E9500CB4DD8 /* TransientStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1621C830E9500CB4DD8 /* TransientStream.swift */; };
+		A0DAA16F1C830E9500CB4DD8 /* UnionStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1631C830E9500CB4DD8 /* UnionStream.swift */; };
+		A0DAA1721C830ECC00CB4DD8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAA1711C830ECC00CB4DD8 /* Service.swift */; };
 		A0E8720C1C8284B40049ACD3 /* BubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8720A1C8284B30049ACD3 /* BubbleNode.swift */; };
 		A0E8720D1C8284B40049ACD3 /* BubblesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8720B1C8284B30049ACD3 /* BubblesScene.swift */; };
 		A0E872131C82D2580049ACD3 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E872121C82D2580049ACD3 /* EventsViewController.swift */; };
@@ -40,6 +63,10 @@
 /* Begin PBXFileReference section */
 		0C7D4D4ECC14A477ED5CB4D8 /* Pods-HugeBeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugeBeer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HugeBeer/Pods-HugeBeer.release.xcconfig"; sourceTree = "<group>"; };
 		366BF9A61A5D22322F3072C0 /* Pods_HugeBeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HugeBeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A067DCB21C832EDC0082797E /* InfoEventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoEventTableViewController.swift; sourceTree = "<group>"; };
+		A067DCB51C833D3A0082797E /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		A067DCB91C8340340082797E /* iphone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iphone.mp4; sourceTree = "<group>"; };
+		A067DCBC1C8348560082797E /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
 		A0802F481C826D220095CED8 /* HugeBeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HugeBeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0802F4B1C826D220095CED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0802F4D1C826D220095CED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +80,25 @@
 		A0802F671C826D220095CED8 /* HugeBeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HugeBeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0802F6B1C826D220095CED8 /* HugeBeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeBeerUITests.swift; sourceTree = "<group>"; };
 		A0802F6D1C826D220095CED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DAA1491C82DF1300CB4DD8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A0DAA14C1C82E00400CB4DD8 /* ListMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMenuViewController.swift; sourceTree = "<group>"; };
+		A0DAA14E1C82E06700CB4DD8 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
+		A0DAA1521C830E8B00CB4DD8 /* Inflight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inflight.swift; sourceTree = "<group>"; };
+		A0DAA1531C830E8B00CB4DD8 /* NSTimer+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer+Closure.swift"; sourceTree = "<group>"; };
+		A0DAA1541C830E8B00CB4DD8 /* String+trimPrefix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+trimPrefix.swift"; sourceTree = "<group>"; };
+		A0DAA1581C830E9500CB4DD8 /* BaseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseItem.swift; sourceTree = "<group>"; };
+		A0DAA1591C830E9500CB4DD8 /* KeyedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyedArray.swift; sourceTree = "<group>"; };
+		A0DAA15A1C830E9500CB4DD8 /* PartitionedStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartitionedStream.swift; sourceTree = "<group>"; };
+		A0DAA15B1C830E9500CB4DD8 /* QueryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryBuilder.swift; sourceTree = "<group>"; };
+		A0DAA15C1C830E9500CB4DD8 /* ResourceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceBase.swift; sourceTree = "<group>"; };
+		A0DAA15D1C830E9500CB4DD8 /* ResourceContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceContext.swift; sourceTree = "<group>"; };
+		A0DAA15E1C830E9500CB4DD8 /* StreamBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamBase.swift; sourceTree = "<group>"; };
+		A0DAA15F1C830E9500CB4DD8 /* StreamBaseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamBaseDelegate.swift; sourceTree = "<group>"; };
+		A0DAA1601C830E9500CB4DD8 /* StreamBaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamBaseProtocol.swift; sourceTree = "<group>"; };
+		A0DAA1611C830E9500CB4DD8 /* StreamTableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamTableViewAdapter.swift; sourceTree = "<group>"; };
+		A0DAA1621C830E9500CB4DD8 /* TransientStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransientStream.swift; sourceTree = "<group>"; };
+		A0DAA1631C830E9500CB4DD8 /* UnionStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionStream.swift; sourceTree = "<group>"; };
+		A0DAA1711C830ECC00CB4DD8 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		A0E8720A1C8284B30049ACD3 /* BubbleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleNode.swift; sourceTree = "<group>"; };
 		A0E8720B1C8284B30049ACD3 /* BubblesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesScene.swift; sourceTree = "<group>"; };
 		A0E872121C82D2580049ACD3 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +131,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A067DCB11C832ECC0082797E /* InfoEventViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A067DCBB1C8348290082797E /* Cell */,
+				A067DCB21C832EDC0082797E /* InfoEventTableViewController.swift */,
+			);
+			name = InfoEventViewController;
+			sourceTree = "<group>";
+		};
+		A067DCB41C833D2C0082797E /* VideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A067DCB51C833D3A0082797E /* VideoViewController.swift */,
+			);
+			name = VideoViewController;
+			sourceTree = "<group>";
+		};
+		A067DCBB1C8348290082797E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A067DCBC1C8348560082797E /* InfoTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		A0802F3F1C826D220095CED8 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +181,8 @@
 		A0802F4A1C826D220095CED8 /* HugeBeer */ = {
 			isa = PBXGroup;
 			children = (
+				A067DCB91C8340340082797E /* iphone.mp4 */,
+				A0DAA1701C830EC500CB4DD8 /* Model */,
 				A0802F4B1C826D220095CED8 /* AppDelegate.swift */,
 				A0E872081C8284990049ACD3 /* Classes */,
 				A0E8720E1C8285B80049ACD3 /* ViewControllers */,
@@ -137,9 +210,58 @@
 			path = HugeBeerUITests;
 			sourceTree = "<group>";
 		};
+		A0DAA1481C82DEFB00CB4DD8 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAA14E1C82E06700CB4DD8 /* OptionTableViewCell.swift */,
+				A0DAA1491C82DF1300CB4DD8 /* MenuViewController.swift */,
+				A0DAA14C1C82E00400CB4DD8 /* ListMenuViewController.swift */,
+			);
+			name = MenuViewController;
+			sourceTree = "<group>";
+		};
+		A0DAA1501C830E6E00CB4DD8 /* StreamBaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAA1581C830E9500CB4DD8 /* BaseItem.swift */,
+				A0DAA1591C830E9500CB4DD8 /* KeyedArray.swift */,
+				A0DAA15A1C830E9500CB4DD8 /* PartitionedStream.swift */,
+				A0DAA15B1C830E9500CB4DD8 /* QueryBuilder.swift */,
+				A0DAA15C1C830E9500CB4DD8 /* ResourceBase.swift */,
+				A0DAA15D1C830E9500CB4DD8 /* ResourceContext.swift */,
+				A0DAA15E1C830E9500CB4DD8 /* StreamBase.swift */,
+				A0DAA15F1C830E9500CB4DD8 /* StreamBaseDelegate.swift */,
+				A0DAA1601C830E9500CB4DD8 /* StreamBaseProtocol.swift */,
+				A0DAA1611C830E9500CB4DD8 /* StreamTableViewAdapter.swift */,
+				A0DAA1621C830E9500CB4DD8 /* TransientStream.swift */,
+				A0DAA1631C830E9500CB4DD8 /* UnionStream.swift */,
+				A0DAA1511C830E7C00CB4DD8 /* Util */,
+			);
+			name = StreamBaseKit;
+			sourceTree = "<group>";
+		};
+		A0DAA1511C830E7C00CB4DD8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAA1521C830E8B00CB4DD8 /* Inflight.swift */,
+				A0DAA1531C830E8B00CB4DD8 /* NSTimer+Closure.swift */,
+				A0DAA1541C830E8B00CB4DD8 /* String+trimPrefix.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		A0DAA1701C830EC500CB4DD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0DAA1711C830ECC00CB4DD8 /* Service.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A0E872081C8284990049ACD3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A0DAA1501C830E6E00CB4DD8 /* StreamBaseKit */,
 				A0E872091C82849C0049ACD3 /* Bubbles */,
 			);
 			name = Classes;
@@ -157,6 +279,9 @@
 		A0E8720E1C8285B80049ACD3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A067DCB41C833D2C0082797E /* VideoViewController */,
+				A067DCB11C832ECC0082797E /* InfoEventViewController */,
+				A0DAA1481C82DEFB00CB4DD8 /* MenuViewController */,
 				A0E872111C82D2470049ACD3 /* EventsViewController */,
 				A0E8720F1C8285EE0049ACD3 /* LoginViewController */,
 			);
@@ -313,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A067DCBA1C8340590082797E /* iphone.mp4 in Resources */,
 				A0802F561C826D220095CED8 /* LaunchScreen.storyboard in Resources */,
 				A0802F531C826D220095CED8 /* Assets.xcassets in Resources */,
 				A0802F511C826D220095CED8 /* Main.storyboard in Resources */,
@@ -388,11 +514,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DAA16E1C830E9500CB4DD8 /* TransientStream.swift in Sources */,
+				A0DAA16D1C830E9500CB4DD8 /* StreamTableViewAdapter.swift in Sources */,
+				A0DAA1691C830E9500CB4DD8 /* ResourceContext.swift in Sources */,
+				A0DAA1681C830E9500CB4DD8 /* ResourceBase.swift in Sources */,
+				A0DAA14F1C82E06700CB4DD8 /* OptionTableViewCell.swift in Sources */,
 				A0E8720C1C8284B40049ACD3 /* BubbleNode.swift in Sources */,
+				A0DAA16C1C830E9500CB4DD8 /* StreamBaseProtocol.swift in Sources */,
+				A0DAA1561C830E8B00CB4DD8 /* NSTimer+Closure.swift in Sources */,
+				A0DAA1661C830E9500CB4DD8 /* PartitionedStream.swift in Sources */,
+				A0DAA1651C830E9500CB4DD8 /* KeyedArray.swift in Sources */,
+				A0DAA14A1C82DF1300CB4DD8 /* MenuViewController.swift in Sources */,
 				A0802F4E1C826D220095CED8 /* ViewController.swift in Sources */,
+				A067DCBD1C8348560082797E /* InfoTableViewCell.swift in Sources */,
+				A0DAA1571C830E8B00CB4DD8 /* String+trimPrefix.swift in Sources */,
+				A0DAA1551C830E8B00CB4DD8 /* Inflight.swift in Sources */,
+				A0DAA16F1C830E9500CB4DD8 /* UnionStream.swift in Sources */,
+				A067DCB31C832EDC0082797E /* InfoEventTableViewController.swift in Sources */,
+				A0DAA1641C830E9500CB4DD8 /* BaseItem.swift in Sources */,
 				A0E8720D1C8284B40049ACD3 /* BubblesScene.swift in Sources */,
+				A067DCB61C833D3A0082797E /* VideoViewController.swift in Sources */,
+				A0DAA1721C830ECC00CB4DD8 /* Service.swift in Sources */,
 				A0802F4C1C826D220095CED8 /* AppDelegate.swift in Sources */,
+				A0DAA1671C830E9500CB4DD8 /* QueryBuilder.swift in Sources */,
+				A0DAA14D1C82E00400CB4DD8 /* ListMenuViewController.swift in Sources */,
+				A0DAA16A1C830E9500CB4DD8 /* StreamBase.swift in Sources */,
 				A0E872131C82D2580049ACD3 /* EventsViewController.swift in Sources */,
+				A0DAA16B1C830E9500CB4DD8 /* StreamBaseDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

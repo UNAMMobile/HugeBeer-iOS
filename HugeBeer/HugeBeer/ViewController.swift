@@ -35,6 +35,9 @@ class ViewController: UIViewController {
             if authData != nil {
                 // user authenticated
                 self.setUserActive(authData)
+                let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let root:MenuViewController = storyboard.instantiateViewControllerWithIdentifier("menuVC") as! MenuViewController
+                UIApplication.sharedApplication().keyWindow?.rootViewController = root
             } else {
                 // No user is signed in
             }
