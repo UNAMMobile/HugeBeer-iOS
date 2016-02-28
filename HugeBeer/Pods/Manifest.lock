@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (3.2.1)
+  - CardIO (5.3.1)
+  - DZNEmptyDataSet (1.7.3)
+  - Firebase (2.5.1)
+  - KVNProgress (2.2.3)
+  - Material (1.34.7)
+  - PaymentKit (1.0.0)
+  - SIFloatingCollection (2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - CardIO
+  - DZNEmptyDataSet
+  - Firebase (>= 2.5.0)
+  - KVNProgress
+  - Material (~> 1.0)
+  - PaymentKit (from `https://github.com/lmcd/PaymentKit.git`)
+  - SIFloatingCollection (~> 2.1)
+
+EXTERNAL SOURCES:
+  PaymentKit:
+    :git: https://github.com/lmcd/PaymentKit.git
+
+CHECKOUT OPTIONS:
+  PaymentKit:
+    :commit: dafecf0b20254af8462b4b4ba57fa59e32457fb2
+    :git: https://github.com/lmcd/PaymentKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  CardIO: a299efcd0348c3b256a1da53f22951319c3855a2
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  KVNProgress: 099c2d0feca4fee4ae3dffee26378c7e2a04edcf
+  Material: 2b3ea1ebc702f97f03af88d4a63e3d71ccc70390
+  PaymentKit: 2289510d64278c097d12fd97589305c2ee3d2ab2
+  SIFloatingCollection: 2603c59df230f161a0a4400ac25fa8d013be7edb
+
+COCOAPODS: 0.39.0

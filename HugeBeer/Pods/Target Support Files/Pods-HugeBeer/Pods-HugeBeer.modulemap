@@ -1,0 +1,6 @@
+framework module Pods_HugeBeer {
+  umbrella header "Pods-HugeBeer-umbrella.h"
+
+  export *
+  module * { export * }
+}

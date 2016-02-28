@@ -1,0 +1,26 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'HugeBeer' do
+
+pod 'PaymentKit', :git => 'https://github.com/lmcd/PaymentKit.git'
+pod 'KVNProgress'
+pod 'CardIO'
+pod 'Alamofire', '~> 3.0'
+pod 'DZNEmptyDataSet'
+pod 'Material', '~> 1.0'
+pod 'Firebase', '>= 2.5.0'
+pod 'SIFloatingCollection', '~> 2.1'
+
+end
+
+target 'HugeBeerTests' do
+
+end
+
+target 'HugeBeerUITests' do
+
+end
+
